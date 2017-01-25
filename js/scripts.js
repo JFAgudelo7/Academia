@@ -19,4 +19,6 @@ $(function(){
         $('.dropdown-menu', this).fadeOut('fast');
     }
     );
+    
+    $("[data-toggle='tooltip']").tooltip({ animation: true});
 });
