@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Contacto - Apolo Academia de Música 2013</title>
+    <title>Eventos - Apolo Academia de Música 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  
-      
+   
       <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-      
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="contacto">
+  <body id="eventos">
     <div class="container">
         <?php include "components/header.php"; ?>
         <div class="row">

@@ -6,7 +6,10 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" media="screen">
-    <script type="text/javascript" src="bootstrap.js"></script>
+      
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -14,9 +17,10 @@
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="home">
       <div class="container">
           <?php include "components/header.php"; ?>
+          
           <div class="row">
               <div class="col-lg-4">
                 <h2>Noticias</h2>
@@ -45,7 +49,8 @@
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p                  
               </div>              
-          </div>      
+          </div>  
+            <?php include "components/footer.php"; ?>  
       </div>            
   </body>
 </html>

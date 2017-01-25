@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <script type="text/javascript" src="bootstrap.js"></script>
+   
+      <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -14,6 +17,7 @@
     <![endif]-->
   </head>
   <body id="privacidad">
+      <?php include "components/header.php"; ?>
     <div class="container">
         <div class="row">
           <div class="col-lg-4">
@@ -33,7 +37,7 @@
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus lacus. Curabitur et sollicitudin eros. Nullam varius ut odio quis tempus. Pellentesque viverra ullamcorper lacus, et ultrices est auctor ut. Aenean tempus eu neque ut tincidunt. Donec ut odio sed quam blandit laoreet vitae vitae elit. </p>
           </div>
         </div>
-
+<?php include "components/footer.php"; ?>
     </div>
   </body>
 </html>
