@@ -16,3 +16,8 @@
 .carousel-inner{
  height: 50%;
 }
+
+#p1,
+#sign1 {
+	text-align: justify;
+}
