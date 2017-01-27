@@ -1,0 +1,17 @@
+{
+  "name": "Academia",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/"
+    }
+  ]
+}
