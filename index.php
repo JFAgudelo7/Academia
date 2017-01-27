@@ -4,9 +4,9 @@
     <title>RMIT music</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" media="screen">
-      
+      <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
@@ -44,6 +44,16 @@
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   <a href="registro.php" class="btn btn-success">Registrarse</a>
+
+                  <h2>Suscríbete a nuestro boletín</h2>
+                  <form class="form-horizontal">
+                    <div class="form-group col-lg-10">
+                      <input class="form-control input-sm" placeholder="Ingresa tu correo">
+                    </div>
+                    <button class="btn btn-warning pull-right">Suscribirse</button>
+
+                  </form>
+
               </div>              
           </div>  
           
@@ -57,11 +67,9 @@
           <div class="row">
             <?php include "components/cursos-destacados.php"; ?> 
           </div>
-          
-          <div class="row">
+      </div>   
+      <div  id="footer" class="row">
             <?php include "components/footer.php"; ?> 
-          </div>
-             
-      </div>            
+      </div>         
   </body>
 </html>

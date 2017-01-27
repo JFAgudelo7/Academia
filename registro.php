@@ -4,8 +4,9 @@
     <title>Registro - Apolo Academia de Música 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
       <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
@@ -19,25 +20,47 @@
   <body id="registro">
     <div class="container">
         <?php include "components/header.php"; ?>
-        <div class="row">
-          <div class="col-lg-4">
-            <h2>Noticias</h2>
-
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus lacus. Curabitur et sollicitudin eros. Nullam varius ut odio quis tempus. Pellentesque viverra ullamcorper lacus, et ultrices est auctor ut. Aenean tempus eu neque ut tincidunt. Donec ut odio sed quam blandit laoreet vitae vitae elit. </p>
+        <div class="container">
+          <div class="col-lg-8">
+          <h2>Formulario de Registro</h2>
+            <form>
+              <div class="form-group">
+              <label for="nombre"> Nombre </label>
+                <input id="nombre" class="form-control" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input id="apellido" class="form-control" placeholder="Ingresa tu apellido">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" class="form-control" placeholder="Ingresa un email">
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>Guitarra</option>
+                  <option>Bajo</option>
+                  <option>Batería</option>
+                  <option>Violín</option>
+                  <option>Piano</option>
+                  <option>Trompeta</option>
+                  <option>Composición</option>
+                </select>                
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox">Suscribirse
+                </label>                
+              </div>
+              <button type="submit" class="btn btn-success">Registrarse</button>
+            </form>
           </div>
-          <div class="col-lg-4">
-            <h2>Galería</h2>
-
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus lacus. Curabitur et sollicitudin eros. Nullam varius ut odio quis tempus. Pellentesque viverra ullamcorper lacus, et ultrices est auctor ut. Aenean tempus eu neque ut tincidunt. Donec ut odio sed quam blandit laoreet vitae vitae elit. </p>
-  
-          </div>
-          <div class="col-lg-4">
-            <h2>Registrarse</h2>
-
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus lacus. Curabitur et sollicitudin eros. Nullam varius ut odio quis tempus. Pellentesque viverra ullamcorper lacus, et ultrices est auctor ut. Aenean tempus eu neque ut tincidunt. Donec ut odio sed quam blandit laoreet vitae vitae elit. </p>
-          </div>
+          
         </div>
-<?php include "components/footer.php"; ?>
+
     </div>
+    <div  id="footer" class="row">
+            <?php include "components/footer.php"; ?> 
+      </div>  
   </body>
 </html>

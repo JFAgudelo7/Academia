@@ -4,8 +4,8 @@
     <title>Sobre nosotros - Apolo Academia de Música 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
       <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
@@ -37,7 +37,10 @@
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus lacus. Curabitur et sollicitudin eros. Nullam varius ut odio quis tempus. Pellentesque viverra ullamcorper lacus, et ultrices est auctor ut. Aenean tempus eu neque ut tincidunt. Donec ut odio sed quam blandit laoreet vitae vitae elit. </p>
           </div>
         </div>
-        <?php include "components/footer.php"; ?>
+        
     </div>
+    <div  id="footer" class="row">
+            <?php include "components/footer.php"; ?> 
+      </div>  
   </body>
 </html>

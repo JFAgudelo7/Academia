@@ -1,5 +1,7 @@
 $(function(){
 
+    $('.artista img').addClass('img-circle');
+
     //Cambiar opciones de menu
     $("#home a:contains('Inicio')").parent().addClass('active'); 
     $("#eventos a:contains('Eventos')").parent().addClass('active');

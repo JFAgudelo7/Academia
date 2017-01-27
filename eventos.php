@@ -4,8 +4,9 @@
     <title>Eventos - Apolo Academia de Música 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
       <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
@@ -71,7 +72,10 @@
             <?php include "components/tira-artistas-vertical.php"; ?>
           </div>
         </div>           
-      <?php include "components/footer.php"; ?>
+      
     </div>
+    <div  id="footer" class="row">
+            <?php include "components/footer.php"; ?> 
+      </div>  
   </body>
 </html>

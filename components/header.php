@@ -1,6 +1,6 @@
 <div class="col-lg-12">
-    <img class="logo" src="img/logo.png">
-    <div class="navbar navbar-inverse navbar-default">
+    <img class="logo" src="img/logo2.png">
+    <div id="menuPP" class="navbar navbar-default">
         <ul class="nav navbar-nav">
             <li><a href="index.php"> Inicio </a></li>
             <li><a href="eventos.php"> Eventos </a></li>

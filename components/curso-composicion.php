@@ -1,5 +1,5 @@
           <div id="composicion">
-            <h2> Composición </h2>
+            <legend>Composición</legend>
             <h3>Descripción del curso </h3>
               <p> Curabitur fermentum risus mi, mollis adipiscing sem blandit id. Quisque ac imperdiet odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a lacus hendrerit, vehicula mi vitae, congue nisi. Maecenas lorem nibh, ullamcorper ac velit a, ornare commodo justo. Suspendisse dictum, dui at varius vulputate, turpis nunc egestas odio, in semper est enim at purus. Donec sapien mauris, vestibulum eu lorem sed, eleifend suscipit turpis.
               </p>               

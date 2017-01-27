@@ -4,7 +4,8 @@
     <title>Tienda - Apolo Academia de Música 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -41,5 +42,8 @@
         </div>
 
     </div>
+    <div  id="footer" class="row">
+            <?php include "components/footer.php"; ?> 
+      </div>  
   </body>
 </html>
